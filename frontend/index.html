@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>index.html</title>
+</head>
+<body>
+   {% extends "base.html" %}
+    
+   {% block asosiy %} 
+   {% if 1 > 10 %}
+   <h1>bu saytning o'zgarmas menyusi</h1>
+   <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+<hr>
+   {% elif 1 < 10 %}
+<h2>
+Bu indexning sayti
+</h2>
+<img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+{% endif %}
+   {% endblock asosiy %}
+
+
+
+
+
+
+   
